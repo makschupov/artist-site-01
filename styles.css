@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "main"; 
+    src: url('./assets/fonts/lato/Lato-Light.ttf') format('truetype');
+  
+}
+
+.header {
+    position: fixed;
+    display:flex;
+    width: 100%;
+    padding-top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    background-color: rgb(209, 209, 209);
+    border-bottom: rgb(59, 59, 59) solid 1px;
+    color: rgb(59, 59, 59);
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: "main";
+    width: 100%;
+    background: rgb(224, 224, 224);
+    position: absolute;
+}
+
+content {
+    margin: 48px auto;
+}
+
+.title {
+    padding-left: 10px;
+    display: flex;
+    
+}
+
+.main-list {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.main-list li {
+    display: flex;
+    margin: 10px;
+}
+
+ul {
+    text-align: justify;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.contact {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+.header a:hover {
+    color: black;
+    
+}
+
+.contact li {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mainpage {
+    display: flex;
+}
+
+.box_1 {
+    display: flex;
+    padding: 10rem;
+    justify-content: center;
+    text-align: justify;
+    border-bottom: solid rgb(59, 59, 59) 1px;
+    background: rgb(12, 12, 12);
+    color: rgb(197, 197, 197);
+}
+
+.main-list a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+.main-list a:hover {
+    color: black;
+    
+}
+
+.footer {
+    display: flex;
+    
+}
+
+.box_2 {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    border-bottom: solid rgb(59, 59, 59) 1px;
+    background-color: rgb(209, 209, 209);
+}
+
+.box_2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.box_2 a:hover {
+    color: grey;
+}
+
+.box_2 ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: grey;
+}
+
+.links a:hover {
+    color: white;
+    
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid rgb(59, 59, 59) 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    background: rgb(12, 12, 12);
+}
+
+.links li {
+    border: 1px solid rgb(197, 197, 197);
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(12, 12, 12);    
+}
+
+.box_3 {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    border-bottom: solid rgb(59, 59, 59) 1px;
+    background-color: rgb(209, 209, 209);
+    
+    
+}
+
+.box_3 ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.box_3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.box_3 a:hover {
+    color: grey;
+    
+}
+
+.box_4 {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    border-bottom: solid rgb(59, 59, 59) 1px;
+    background: rgb(12, 12, 12);
+    color: rgb(197, 197, 197);
+    
+}
+
+.box_4 ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+.upcoming ul {
+    list-style-type: none;
+    padding-left: 10px;
+    
+}
+
+/* CONTACT PAGE */ 
+.content_2 {
+    margin: 48px;
+}
+
+.contact_info {
+    display: flex;
+    padding: 7rem;
+    justify-content: center;
+    text-align: justify;
+    border-bottom: solid rgb(59, 59, 59) 1px;
+    background: rgb(12, 12, 12);
+    color: rgb(197, 197, 197);
+    width: absolute;
+}
