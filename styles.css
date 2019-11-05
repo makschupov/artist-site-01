@@ -97,6 +97,10 @@ ul {
     color: rgb(197, 197, 197);
 }
 
+.box_1:hover {
+    background: rgb(19, 19, 19);
+}
+
 .main-list a {
     text-decoration: none;
     color: rgb(59, 59, 59);
@@ -118,6 +122,10 @@ ul {
     padding: 10rem;
     border-bottom: solid rgb(59, 59, 59) 1px;
     background-color: rgb(209, 209, 209);
+}
+
+.box_2:hover {
+    background: rgb(196, 196, 196);
 }
 
 .box_2 a {
@@ -144,6 +152,10 @@ ul {
     
 }
 
+.links:hover {
+    background: rgb(19, 19, 19);
+}
+
 .links {
     list-style-type: none;
     margin: 0;
@@ -168,9 +180,11 @@ ul {
     justify-content: center;
     padding: 10rem;
     border-bottom: solid rgb(59, 59, 59) 1px;
-    background-color: rgb(209, 209, 209);
-    
-    
+    background-color: rgb(209, 209, 209); 
+}
+
+.box_3:hover {
+    background: rgb(196, 196, 196);
 }
 
 .box_3 ul {
@@ -194,8 +208,11 @@ ul {
     padding: 10rem;
     border-bottom: solid rgb(59, 59, 59) 1px;
     background: rgb(12, 12, 12);
-    color: rgb(197, 197, 197);
-    
+    color: rgb(197, 197, 197);  
+}
+
+.box_4:hover {
+    background: rgb(19, 19, 19);
 }
 
 .box_4 ul {
@@ -206,8 +223,7 @@ ul {
 
 .upcoming ul {
     list-style-type: none;
-    padding-left: 10px;
-    
+    padding-left: 10px;  
 }
 
 /* CONTACT PAGE */ 
